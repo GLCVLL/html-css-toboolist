@@ -24,6 +24,14 @@ h1{
 
 header{
     background-color: white;
+    margin-bottom: 30px;
+}
+
+.container-form{
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 10px;
+
 }
 
 /*header*/
@@ -32,4 +40,24 @@ header{
     height: 50px;
     vertical-align: middle;
     margin: 10px; 
+    margin-right: 0px;
+}
+
+.task{
+    padding: 5px 15px;
+    background-color: #1e90ff;
+    color: white;
+    margin: 15px;
+    margin-right: 2px;
+    border-radius: 5px;
+    border: 2px solid #1e90ff;
+}
+
+.section{
+    padding: 5px 15px;
+    background-color:white;
+    color: #8f96a7;
+    margin: 0px;
+    border-radius: 5px;
+    border: 2px solid #8f96a7;
 }
