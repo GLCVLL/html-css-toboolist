@@ -35,7 +35,7 @@ header{
 
 .container{
     width: 60%;
-    height: 550px;
+    height: 600px;
     margin: 0 auto;
     background-color: white;
     border-radius: 5px;
@@ -104,6 +104,16 @@ h2{
   
 }
 
+.ballot-red{
+    color: red;
+    background-color: white;
+    border: 2px solid red;
+    border-radius: 50%;
+    padding: 2px;
+    margin-left: 30px;
+  
+}
+
 .text-list{
     display: inline;
 }
@@ -118,5 +128,50 @@ h2{
     color: white;
     border: 2px solid #45abea;
     border-radius: 50px;
-    padding: 2px;
+    padding: 5px;
+}
+
+.marked-text-purple{
+    font-size: small;
+    background-color: #9c72e4;
+    color: white;
+    border: 2px solid #9c72e4;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.marked-text-green{
+    font-size: small;
+    background-color: #64c0a9;
+    color: white;
+    border: 2px solid #64c0a9;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.marked-text-orange{
+    font-size: small;
+    background-color: #f29e33;
+    color: white;
+    border: 2px solid #f29e33;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.marked-text-fuchsia{
+    font-size: small;
+    background-color: #d863a1;
+    color: white;
+    border: 2px solid #d863a1;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.marked-text-grass{
+    font-size: small;
+    background-color: #b0c926;
+    color: white;
+    border: 2px solid #b0c926;
+    border-radius: 50px;
+    padding: 5px;
 }
