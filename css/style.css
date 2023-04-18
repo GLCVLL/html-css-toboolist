@@ -8,7 +8,7 @@
 /*generics*/
 
 body{
-    background-color: aquamarine;
+    background-color: #6ed663;
     
 }
 
@@ -20,6 +20,12 @@ h1{
     
 }
 
+.separetor{
+    margin: 2px 0;
+    height: 2px;
+    background-color: #6ed663;
+}
+
 /*utilities*/
 
 header{
@@ -27,11 +33,12 @@ header{
     margin-bottom: 30px;
 }
 
-.container-form{
+.container{
     width: 60%;
+    height: 550px;
     margin: 0 auto;
-    border-radius: 10px;
-
+    background-color: white;
+    border-radius: 5px;
 }
 
 /*header*/
@@ -47,7 +54,9 @@ header{
     padding: 5px 15px;
     background-color: #1e90ff;
     color: white;
-    margin: 15px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     margin-right: 2px;
     border-radius: 5px;
     border: 2px solid #1e90ff;
@@ -60,4 +69,54 @@ header{
     margin: 0px;
     border-radius: 5px;
     border: 2px solid #8f96a7;
+}
+
+/*toboolist*/
+
+ul{
+    list-style-type: none;
+}
+
+.down-pointing-triangle{
+    font-size: 10px;
+    padding-left: 30px;
+    padding-right: 5px;
+    vertical-align: middle;
+}
+
+h2{
+    font-size: 20px;
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-list{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.checkmark-green{
+    color: green;
+    background-color: white;
+    border: 2px solid green;
+    border-radius: 50%;
+    padding: 2px;
+    margin-left: 30px;
+  
+}
+
+.text-list{
+    display: inline;
+}
+
+.list-item{
+    margin-top: 20px;
+}
+
+.marked-text{
+    font-size: small;
+    background-color: #45abea;
+    color: white;
+    border: 2px solid #45abea;
+    border-radius: 50px;
+    padding: 2px;
 }
