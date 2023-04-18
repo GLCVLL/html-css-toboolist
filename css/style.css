@@ -1,0 +1,35 @@
+/*css reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*generics*/
+
+body{
+    background-color: aquamarine;
+    
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    display: inline;
+    vertical-align: middle;
+    
+}
+
+/*utilities*/
+
+header{
+    background-color: white;
+}
+
+/*header*/
+
+#logo{
+    height: 50px;
+    vertical-align: middle;
+    margin: 10px; 
+}
